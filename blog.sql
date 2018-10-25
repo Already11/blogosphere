@@ -14,10 +14,10 @@ CREATE TABLE users(
 	username VARCHAR(20) NOT NULL,
 	password VARCHAR(50) NOT NULL,
 	email VARCHAR(50) NOT NULL,
-	avatar VARCHAR(100) NULL,
-	name VARCHAr(20) NULL,
-	gender bit NULL,
-	introduce VARCHAR(100) NULL
+	avatar VARCHAR(100) NOT NULL,
+	name VARCHAr(20) NOT NULL,
+	gender VARCHAR(20) NOT NULL,
+	introduce VARCHAR(100) NOT NULL
 )engine=MyISAM charset=utf8;
 
 CREATE TABLE articles(
